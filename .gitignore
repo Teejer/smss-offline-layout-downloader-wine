@@ -1,0 +1,23 @@
+# Never commit the multi-GB layout or the bootstrapper
+SSMS_Layout/
+vs_SSMS.exe
+*.exe
+*.vsix
+*.opc
+
+# Wine noise
+*.log
+dd_bootstrapper_*.log
+dd_setup_*.log
+
+# Scratch / downloads
+scratch/
+channel.json
+SSMS.vsman
+*.p7b
+*.der
+*.cer
+
+# Misc
+__pycache__/
+.DS_Store
